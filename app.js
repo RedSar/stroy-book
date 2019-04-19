@@ -4,7 +4,9 @@ const mongoose = require('mongoose');
 const app = express();
 
 app.get('/', (req, res) => {
-	res.send('Salam');
+	res.send(
+		'<p style="font-size:60px; text-align:center;">بسم الله الرحمان الرحيم</p>'
+	);
 });
 
 port = process.env.PORT || 5000;
